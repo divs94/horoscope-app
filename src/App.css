@@ -1,0 +1,148 @@
+body{
+  background-color: #282c34;
+  height: 100vh;
+}
+
+
+.App {
+  text-align: center;
+  background-color: #282c34;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  font-size: 1rem;
+  color: white;
+  height: 100vh;
+  margin-bottom: 15px;
+}
+
+.apphead{
+  border-bottom: 1px solid whitesmoke;
+  padding: 5px;
+  color: gold;
+}
+
+.App-logo {
+  height: 40vmin;
+  pointer-events: none;
+}
+
+
+.App-header {
+  background-color: #282c34;
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  /* font-size: calc(10px + 2vmin); */
+  color: white;
+}
+
+.App-link {
+  color: #61dafb;
+}
+
+
+
+.grid {
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
+  grid-gap: 50px;
+  
+}
+
+.sign {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  text-align: center;
+  align-items: center;
+  text-transform: capitalize;
+  padding: 10px;
+  font-size: 1rem;
+  cursor: pointer;
+  border-radius: 45px;
+  width: 20vw;
+}
+.signR{
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  text-align: center;
+  align-items: center;
+  font-size: 1rem;
+  cursor: pointer;
+  border-radius: 50px;
+  width: 6rem;
+  margin-top: 1px;
+  margin-bottom: 1px;
+  border: 1px solid black;
+}
+.signR:hover{
+  background-color: goldenrod;
+  color: black;
+  box-shadow: 0 2px 2px 0 black;
+  border: 1px solid black;
+}
+.sign:hover{
+  transition: 0.5s all;
+  background-color: goldenrod;
+  margin: 0.5rem;
+  color: black;
+  font-size: 1rem;
+  box-shadow: 0 2px 2px 0 black;
+  border: 1px solid black;
+}
+
+.timeframe{
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  text-transform: capitalize;
+  padding: 10px;
+  font-size: 1rem;
+  cursor: pointer;
+  border-radius: 45px;
+  width: 20vw;
+}
+.timeframe:hover{
+  transition: 0.5s all;
+  background-color: goldenrod;
+  margin: 0.5rem;
+  color: black;
+  box-shadow: 0 2px 2px 0 black;
+  border: 1px solid black;
+  font-size: 1rem;
+}
+.horoscope{
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  text-transform: capitalize;
+  padding: 10px;
+  font-size: 30px;
+
+}
+.main{
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  text-align: center;
+  text-transform: uppercase;
+  color: gold;
+  font-size: 35px;
+  text-shadow: 1px 2px 4px black;
+}
+p{
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  text-align: center;
+font-size: 15px;
+margin: 15px;
+padding: 25px;
+}
